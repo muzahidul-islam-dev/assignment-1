@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --primary-color: #4E47FF;
+    --primary-font: "Inter", sans-serif;
+    --secoundery-font: "Raleway", sans-serif;
+    --secoundary-color: #252432;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--primary-font);
 }
 
 
@@ -11,3 +20,94 @@
     padding: 0 20px;
 }
 
+.font-primary{
+    font-family: var(--primary-font);
+}
+
+.font-secoundary{
+    font-family: var(--secoundery-font);
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.btn-primary{
+    padding: 13px 30px;
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    margin-bottom: 2px;
+    margin-top: -2px;
+    box-shadow: 0 5px 8px rgba(101, 0, 232, 0.3);
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Navbar and Hero Section Start Here */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1120px;
+    margin: 50px auto;
+}
+header{
+    position: relative;
+}
+.hero-content{
+    background-image: url('./Assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+
+.hero-title{
+    font-size: 65px;
+    width: 800px;
+    color: var(--secoundary-color);
+    margin: 30px 0;
+}
