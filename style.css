@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--primary-font);
+    background: #F5F8FF;
 }
 
 
@@ -32,6 +33,10 @@
     color: var(--primary-color);
 }
 
+.text-secoundary{
+    color: var(--secoundary-color);
+}
+
 .btn-primary{
     padding: 13px 30px;
     background: var(--primary-color);
@@ -40,6 +45,7 @@
     border-radius: 8px;
     transition: .3s;
     cursor: pointer;
+    display: inline;
 }
 
 .btn-primary:hover{
@@ -110,4 +116,29 @@ header{
     width: 800px;
     color: var(--secoundary-color);
     margin: 30px 0;
+}
+
+
+
+/* Action Section */
+
+.action{
+    padding: 100px 0;
+}
+.action-content{
+    width: 500px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-text{
+    margin: 20px 0 15px 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: #252432;
+}
+
+.action-banner img{
+    border-radius: 50px;
 }
