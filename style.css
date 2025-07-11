@@ -42,7 +42,7 @@ body{
 .btn-primary{
     padding: 13px 30px;
     background: var(--primary-color);
-    border: none;
+    border: 1px solid transparent;
     color: #fff;
     border-radius: 8px;
     transition: .3s;
@@ -53,7 +53,9 @@ body{
 .btn-primary:hover{
     margin-bottom: 2px;
     margin-top: -2px;
-    box-shadow: 0 5px 8px rgba(101, 0, 232, 0.3);
+    box-shadow: 0 5px 10px rgba(101, 0, 232, 0.3);
+    /* background: transparent;
+    border: 1px solid var(--primary-color); */
 }
 
 .flex{
@@ -96,6 +98,18 @@ body{
 
 .full-round{
     border-radius: 50%;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.rounded-max{
+    border-radius: 40px;
+}
+
+.bg-white{
+    background: white;
 }
 
 
@@ -230,6 +244,29 @@ header{
 .review-client .client-info span{
     color: #9d9d9d;
 }
+
+
+
+
+
+/* Focus Section */
+
+.focus{
+    padding: 71px 30px;
+    text-align: center;
+    display: grid;
+    row-gap: 20px;
+}
+
+.focus h3{
+    font-size: 50px;
+}
+
+.focus p{
+    color: rgba(0,0,0,.5);
+    font-weight: 300;
+}
+
 
 /* Get in Touch Section */
 .get-in-touch{
