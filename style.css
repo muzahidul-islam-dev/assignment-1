@@ -11,9 +11,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--primary-font);
-    background: #F5F8FF;
 }
 
+body{
+    background: #F5F8FF;
+}
 
 .container{
     max-width: 1140px;
@@ -74,7 +76,19 @@
     text-align: center;
 }
 
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    background: transparent;
+}
 
+.bold{
+    font-weight: bold;
+}
+
+.normal{
+    font-weight: normal;
+}
 
 
 
@@ -136,9 +150,33 @@ header{
     margin: 20px 0 15px 0;
     font-size: 24px;
     font-weight: 300;
-    color: #252432;
+    color: rgba(37, 36, 50,.5);
 }
 
 .action-banner img{
     border-radius: 50px;
+}
+
+
+
+/* Productive User */
+
+.productive{
+    background: rgb(78, 71, 255, 0.1);
+    height: max-content;
+    padding: 50px 150px;
+    border-radius: 24px;
+    text-align: center;
+
+}
+.progress{
+    margin-top: 50px;
+    gap: 158px;
+}
+.progress-title{
+    font-size: 80px;
+}
+.progress-sub-title{
+    font-size: 20px;
+    color: rgba(0,0,0,.5)
 }
