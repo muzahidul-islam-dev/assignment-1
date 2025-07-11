@@ -180,3 +180,39 @@ header{
     font-size: 20px;
     color: rgba(0,0,0,.5)
 }
+
+
+
+
+
+/* Get in Touch Section */
+.get-in-touch{
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.get-in-touch .content h3{
+    font-size: 97px;
+    color: #000;
+}
+
+.get-in-touch form{
+    display: grid;
+    row-gap: 19px;
+}
+.get-in-touch form input, .get-in-touch form textarea{
+    width: 100%;
+    padding: 20px 32px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+.get-in-touch form input:focus, .get-in-touch form textarea:focus{
+    outline: none;
+}
+
+.get-in-touch form .button button{
+    width: 100%;
+}
