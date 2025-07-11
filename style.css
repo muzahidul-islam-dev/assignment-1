@@ -298,7 +298,7 @@ header{
     border-radius: 10px;
 }
 .get-in-touch form input:focus, .get-in-touch form textarea:focus{
-    outline: none;
+    outline: 1px solid var(--primary-color);
 }
 
 .get-in-touch form .button button{
