@@ -223,6 +223,7 @@ header{
 }
 .card .review-content > p{
     font-weight: 300;
+    font-size: 15px;
 }
 .card .review-content{
     display: grid;
@@ -285,6 +286,10 @@ header{
 .get-in-touch form{
     display: grid;
     row-gap: 19px;
+}
+.get-in-touch form label{
+    margin-bottom: 7px;
+    display: inline-block;
 }
 .get-in-touch form input, .get-in-touch form textarea{
     width: 100%;
