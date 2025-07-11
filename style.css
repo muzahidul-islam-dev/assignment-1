@@ -216,3 +216,46 @@ header{
 .get-in-touch form .button button{
     width: 100%;
 }
+
+
+
+
+/* Footer Section Start */
+
+
+footer{
+    background: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer .footer-box{
+    width: 540px;
+    margin: auto;
+}
+
+.footer-box h3{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.footer-box p{
+    color: #8987A1;
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+.footer-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-nav nav ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-nav nav ul li a:hover{
+    text-decoration: underline;
+}
